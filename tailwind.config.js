@@ -9,6 +9,7 @@ module.exports = {
         'floral-white': '#FFF8F0',
         'french-gray': '#AEA9B1',
         'indian-red': '#C1666B',
+        'charcoal': '#34485B',
 
       },
       fontFamily: {
