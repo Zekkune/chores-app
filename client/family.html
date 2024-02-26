@@ -8,15 +8,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script defer src="./script.js"> </script>
+    <script defer src="./CRUD/family/family.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="h-screen w-screen overflow-hidden flex flex-col">
-    <div class="w-full basis-1/6 bg-prussian-blue" id="date-container">
-        <h2 class="text-center text-indian-red font-comfort mt-1.5">Today</h2>
+<body class="h-screen w-screen overflow-hidden flex flex-col m-0">
+    <div class="w-full basis-1/12 bg-prussian-blue" id="family">
+        <h2 class="text-center text-indian-red font-comfort mt-1.5">Your Family</h2>
     </div>
 
-    <div class="w-full h-2/3 bg-floral-white dark:bg-gray-500 flex flex-col items-center justify-start basis-2/3 overflow-scroll pb-6" id="chores-container">
+    <div class="w-full h-5/6 bg-floral-white dark:bg-gray-500 flex flex-row flex-wrap items-start justify-evenly basis-5/6 overflow-scroll p-6 " id="people-container">
     </div>
 
     <div class="w-full flex flex-row p-4 basis-1/6 bg-superior-blue h-1/6 justify-evenly" id="buttons-container">

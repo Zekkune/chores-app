@@ -9,7 +9,6 @@ const familyMembers = [
         name: 'Aubrey',
         age: 17,
         relationshipToParent: 'Daughter',
-        primary_user: true
     }
 ]
 await Family.insertMany(familyMembers)

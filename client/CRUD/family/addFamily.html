@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <script defer src="../family/addFamily.js"></script>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body class="h-screen w-screen font-comfort">
+    <form id="peopleForm" action="#" method="POST" class="flex flex-col w-screen h-screen bg-floral-white justify-start items-center dark:bg-prussian-blue">
+        <label for="famName" class="mt-10 dark:text-white mb-4">Name:</label>
+        <input type="text" id="famName" name="famName" class="shadow-lg shadow-gray-800 w-5/6 h-7 bg-superior-blue text-slate-300 rounded-md text-center dark:text-slate-300 md:w-1/2" required><br>
+
+        <label for="famAge" class=" dark:text-white mb-4">Age:</label>
+        <input type="number" id="famAge" name="famAge" class="shadow-lg shadow-gray-800 w-5/6 h-7 bg-superior-blue text-slate-300 rounded-md text-center dark:text-slate-300 md:w-1/2" required><br>
+
+        <label for="famRelation" class="dark:text-white mb-4">Relation:</label>
+        <input type="text" id="famRelation" name="famRelation" class="shadow-lg shadow-gray-800 w-5/6 h-7 bg-superior-blue text-slate-300 rounded-md text-center dark:text-slate-300 md:w-1/2" required><br>
+
+  
+        <button type="submit" class="shadow-lg shadow-gray-800 bg-prussian-blue text-slate-300 w-1/2 rounded-md md:hover:-translate-y-1 md:hover:scale-110 md:hover:bg-charcoal hover:bg-charcoal duration-300 dark:bg-indian-red mt-6">Add Person</button>
+
+    </form>
+    
+</body>
+</html>

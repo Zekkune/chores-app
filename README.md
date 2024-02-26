@@ -7,4 +7,11 @@ Create a full stack application with as much CRUD functionality as possible, ind
 
 ## Planning
 ### ERD 
+<img src="client/images/Screenshot 2024-02-23 at 9.02.58 AM.png">
+
+### Mock up
+<img src="client/images/Screenshot 2024-02-23 at 9.05.18 AM.png">
+
+### Screens
+
 

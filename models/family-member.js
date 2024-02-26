@@ -7,7 +7,6 @@ const Family = new Schema(
     name : {type: String, required: true},
     age : {type: Number, required: true},
     relationshipToParent : {type: String, required: true},
-    primary_user : {type: Boolean, required: true}
 },
 {timestamps: true} )
 
